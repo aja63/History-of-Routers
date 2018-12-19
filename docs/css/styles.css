@@ -98,11 +98,35 @@ a:hover {
 	width: 20%;
 	position:absolute;
 	left: 35%;
-	top: 70%;
+	top: 60%;
 }
 #date{
 	position: absolute;
 	top: 60%;
 	left: 30%;
 	width: 50px;
+}
+#timeline{
+    position: absolute;
+    left: 400px;
+    top: 25px;
+
+}
+#timemark{
+    border-radius: 50%;
+    background-color: cyan;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 400px;
+}
+#amazonLink{
+    visibility: hidden;
+    position: absolute;
+    left: 70%;
+    top: 40%;
+    font-size: 30px;
+    color: cyan;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
