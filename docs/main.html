@@ -4,16 +4,17 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-
-
+<div id="timemark"></div>
+<p id="timeline">1966 --  1967 --   1970  --  1990  --  2018</p>
 <div id="bgmaker"></div>
-<button id="rightButton" onclick=" textRight(); picRight(); dateRight();">Next</button>
-<button id="leftButton" onclick="textLeft(); picLeft(); dateLeft();">Back</button>
+<button id="rightButton" onclick=" textRight(); picRight(); dateRight(); cycleR();" onmouseover="linktext();">Next</button>
+<button id="leftButton" onclick="textLeft(); picLeft(); dateLeft(); cycleL();">Back</button>
 <img id="pic" class="img" src="1.png">
 <!--<img id="textold" class="img" src="one.png">-->
 <p id="date">1966 IMP</p>
 <p id="text">The first routers were just IMP computers that were set to run very specific software that would help link other PC's around the world</p>
 <p id="hor">History of Routers</p>
+<p id="amazonLink">Click Again to link to a great book full of internet history!!</p>
 <script src="js/scripts.js"></script>
 </body>
 </html>
