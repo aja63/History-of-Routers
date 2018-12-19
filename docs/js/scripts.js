@@ -46,6 +46,13 @@ function dateLeft() {
     if(currentDate < 0) {currentDate = 4;}
     document.getElementById("date").innerHTML = date[currentDate];
 }
-function link(){
-
+var poslist = ["400px", "450px", "500px", "550px", "600px"];
+var pos = 0;
+function cycleR(){
+    pos +=1;
+    document.getElementById("timemark").style.left = poslist[pos];
+}
+function linktext(){
+    if(document.getElementById("rightButton").innerHTML === "Learn More"){
+    document.getElementById("amazonLink").style.visibility="visible"}
 }
